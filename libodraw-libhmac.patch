@@ -1,0 +1,11 @@
+--- libodraw-20150105/odrawtools/odrawtools_libhmac.h.orig	2015-01-05 19:01:57.000000000 +0100
++++ libodraw-20150105/odrawtools/odrawtools_libhmac.h	2015-01-23 22:35:15.718235511 +0100
+@@ -33,7 +33,7 @@
+ #include <libhmac_support.h>
+ #include <libhmac_types.h>
+ 
+-#elif defined( HAVE_LIBHMAC_H )
++#else
+ #include <libhmac.h>
+ 
+ #endif
