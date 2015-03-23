@@ -2,7 +2,7 @@ Summary:	Library to access optical disc (split) RAW formats
 Summary(pl.UTF-8):	Biblioteka służąca do dostępu do surowych (podzielonych) formatów dysków optycznych
 Name:		libodraw
 Version:	20150105
-Release:	1
+Release:	2
 License:	LGPL v3+
 Group:		Libraries
 Source0:	https://github.com/libyal/libodraw/archive/%{version}/%{name}-%{version}.tar.gz
