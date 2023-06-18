@@ -1,5 +1,5 @@
 # see m4/${libname}.m4 />= for required version of particular library
-%define		libbfio_ver	20160108
+%define		libbfio_ver	20191230
 %define		libcdata_ver	20190112
 %define		libcerror_ver	20120425
 %define		libcfile_ver	20160409
@@ -8,18 +8,18 @@
 %define		libcpath_ver	20180716
 %define		libcsplit_ver	20120701
 %define		libcthreads_ver	20160404
-%define		libhmac_ver	20160802
-%define		libuna_ver	20181006
+%define		libhmac_ver	20200104
+%define		libuna_ver	20200711
 Summary:	Library to access optical disc (split) RAW formats
 Summary(pl.UTF-8):	Biblioteka służąca do dostępu do surowych (podzielonych) formatów dysków optycznych
 Name:		libodraw
-Version:	20190118
+Version:	20201003
 Release:	1
 License:	LGPL v3+
 Group:		Libraries
 #Source0Download: https://github.com/libyal/libodraw/releases
 Source0:	https://github.com/libyal/libodraw/releases/download/%{version}/%{name}-alpha-%{version}.tar.gz
-# Source0-md5:	34e7ddfd40ddaaa76df1ebea729ce2f4
+# Source0-md5:	e69bb3d7390c13511fc88bc566126cf6
 URL:		https://github.com/libyal/libodraw/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1.6
