@@ -21,11 +21,11 @@ Group:		Libraries
 Source0:	https://github.com/libyal/libodraw/releases/download/%{version}/%{name}-alpha-%{version}.tar.gz
 # Source0-md5:	ac6b32c1e1722a609caf91be69173489
 URL:		https://github.com/libyal/libodraw/
-BuildRequires:	autoconf >= 2.59
+BuildRequires:	autoconf >= 2.71
 BuildRequires:	automake >= 1.6
 BuildRequires:	bison
 BuildRequires:	flex
-BuildRequires:	gettext-tools >= 0.18.1
+BuildRequires:	gettext-tools >= 0.21
 BuildRequires:	libbfio-devel >= %{libbfio_ver}
 BuildRequires:	libcdata-devel >= %{libcdata_ver}
 BuildRequires:	libcerror-devel >= %{libcerror_ver}
@@ -37,7 +37,7 @@ BuildRequires:	libcsplit-devel >= %{libcsplit_ver}
 BuildRequires:	libcthreads-devel >= %{libcthreads_ver}
 BuildRequires:	libhmac-devel >= %{libhmac_ver}
 BuildRequires:	libuna-devel >= %{libuna_ver}
-BuildRequires:	libtool
+BuildRequires:	libtool >= 2:2
 BuildRequires:	openssl-devel >= 1.0
 BuildRequires:	pkgconfig
 Requires:	libbfio >= %{libbfio_ver}
